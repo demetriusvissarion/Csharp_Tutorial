@@ -56,13 +56,60 @@ namespace ConsoleApp1
             //Console.ReadLine();
 
             // Get user input
-            Console.WriteLine("Enter your name: ");
-            string name = Console.ReadLine();
-            Console.WriteLine("Enter your age: ");
-            string age = Console.ReadLine();
-            Console.WriteLine("Hello " + name + ", you are " + age + " years old");
+            //Console.WriteLine("Enter your name: ");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Enter your age: ");
+            //string age = Console.ReadLine();
+            //Console.WriteLine("Hello " + name + ", you are " + age + " years old");
+            //Console.ReadLine();
 
-            Console.ReadLine();
+            // Convert string to numbers
+            //string myString = "45";
+            //int num = Convert.ToInt32(myString);
+            //Console.WriteLine( num + 6);
+            //Console.Write("Enter a number: ");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter another number: ");
+            //int num2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(num2 + num1);
+            //Console.Write("Enter a number: ");
+            //double num3 = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("Enter another number: ");
+            //double num4 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine(num3 + num4); 
+            //Console.ReadLine();
+
+            // Mad Libs
+            //string color, pluralNoun, celebrity;
+
+            //Console.Write("Enter a color: ");
+            //color = Console.ReadLine();
+
+            //Console.Write("Enter a plural noun: ");
+            //pluralNoun = Console.ReadLine();
+
+            //Console.Write("Enter a celebrity: ");
+            //celebrity = Console.ReadLine();
+
+            //Console.WriteLine("Roses are " + color);
+            //Console.WriteLine(char.ToUpper(pluralNoun[0]) + pluralNoun.Substring(1) + " are blue");
+            //Console.WriteLine("I love " + char.ToUpper(celebrity[0]));
+
+            //Console.ReadLine();
+
+            // Arrays
+            //int[] luckyNumbers = { 3, 7, 11, 13, 24, 43 };
+            //luckyNumbers[1] = 27;
+            //Console.WriteLine( luckyNumbers[1] );
+            //Console.ReadLine();
+
+            string[] friends = new string[3];
+            friends[0] = "Mircea";
+            friends[1] = "Gabi";
+            friends[2] = "Sergiu";
+
+            Console.WriteLine("[{0}]", string.Join(", ", friends));
+
         }
     }
 }
