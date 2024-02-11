@@ -102,14 +102,33 @@ namespace ConsoleApp1
             //luckyNumbers[1] = 27;
             //Console.WriteLine( luckyNumbers[1] );
             //Console.ReadLine();
+            //string[] friends = new string[3];
+            //friends[0] = "Mircea";
+            //friends[1] = "Gabi";
+            //friends[2] = "Sergiu";
 
-            string[] friends = new string[3];
-            friends[0] = "Mircea";
-            friends[1] = "Gabi";
-            friends[2] = "Sergiu";
+            //Console.WriteLine("[{0}]", string.Join(", ", friends));
+            //Console.ReadLine();
 
-            Console.WriteLine("[{0}]", string.Join(", ", friends));
 
+            // Methods
+            //SayHi("Demetrius", 40);
+            //SayHi("Madalina", 33);
+            //Console.ReadLine();
+
+            int cubedNumber = cube(4); 
+            Console.WriteLine(cubedNumber);
+            Console.ReadLine();
+        }
+
+        //static void SayHi(string name, int age) 
+        //{ 
+        //    Console.WriteLine("Hello " + name + ", you are " + age + " years old");  
+        //}        
+        static int cube( int num) 
+        {
+            int result = num * num * num;
+            return result;
         }
     }
 }
