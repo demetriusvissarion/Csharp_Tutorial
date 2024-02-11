@@ -175,19 +175,30 @@ namespace ConsoleApp1
             // Exception handling
 
             // Classes and objects
-            Book book1 = new Book();
-            book1.title = "Harry Potter";
-            book1.author = "JK Rolling";
-            book1.pages = 400;
+            //Book book1 = new Book("Mike");
+            //book1.title = "Harry Potter";
+            //book1.author = "JK Rolling";
+            //book1.pages = 400;
 
-            Book book2 = new Book();
-            book2.title = "Hyperion";
-            book2.author = "Dan Simmons";
-            book2.pages = 1900;
+            //Book book2 = new Book("");
+            //book2.title = "Hyperion";
+            //book2.author = "Dan Simmons";
+            //book2.pages = 1900;
 
-            Console.WriteLine(book1.title);
-            Console.WriteLine(book2.title);
+            //Book book1 = new Book("Harry Potter", "JK Rolling", 400);
+            //Book book2 = new Book("Hyperion", "Dan Simmons", 1900);
 
+            //Console.WriteLine(book1.title);
+            //Console.WriteLine(book2.title);
+
+            //Console.ReadLine();
+
+            // Object methods
+            Student student1 = new Student("Jim", "Business", 2.8);
+            Student student2 = new Student("Pam", "Art", 3.6);
+
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
 
             Console.ReadLine();
         }
