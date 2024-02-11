@@ -201,9 +201,20 @@ namespace ConsoleApp1
             //Console.WriteLine(student2.HasHonors());
 
             // Getters & Setters
-            Movie avengers = new Movie("The Avengers", "Joss Whedon", "test");
-            Movie shreck = new Movie("Shreck", "Adam Adamson", "PG");
-            Console.WriteLine(avengers.Rating);
+            //Movie avengers = new Movie("The Avengers", "Joss Whedon", "test");
+            //Movie shreck = new Movie("Shreck", "Adam Adamson", "PG");
+            //Console.WriteLine(avengers.Rating);
+
+            // Static class attributes
+            Song holiday = new Song("Holiday", "Green Day", 200);
+            Console.WriteLine(Song.songCount);
+            Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
+            Console.WriteLine(Song.songCount);
+
+            Console.WriteLine(holiday.artist);
+            Console.WriteLine(kashmir.artist);
+
+            Console.WriteLine(kashmir.getSongCount());
 
             Console.ReadLine();
         }
