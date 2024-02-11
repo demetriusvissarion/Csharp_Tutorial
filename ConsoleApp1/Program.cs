@@ -206,15 +206,19 @@ namespace ConsoleApp1
             //Console.WriteLine(avengers.Rating);
 
             // Static class attributes
-            Song holiday = new Song("Holiday", "Green Day", 200);
-            Console.WriteLine(Song.songCount);
-            Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
-            Console.WriteLine(Song.songCount);
+            //Song holiday = new Song("Holiday", "Green Day", 200);
+            //Console.WriteLine(Song.songCount);
+            //Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
+            //Console.WriteLine(Song.songCount);
 
-            Console.WriteLine(holiday.artist);
-            Console.WriteLine(kashmir.artist);
+            //Console.WriteLine(holiday.artist);
+            //Console.WriteLine(kashmir.artist);
 
-            Console.WriteLine(kashmir.getSongCount());
+            //Console.WriteLine(kashmir.getSongCount());
+
+            // Static methods and classes
+            Console.WriteLine(Math.Sqrt(144));
+            UsefullTools.SayHi("Mike");
 
             Console.ReadLine();
         }
