@@ -115,9 +115,42 @@ namespace ConsoleApp1
             //SayHi("Demetrius", 40);
             //SayHi("Madalina", 33);
             //Console.ReadLine();
+            //int cubedNumber = cube(4); 
+            //Console.WriteLine(cubedNumber);
+            //Console.ReadLine();
 
-            int cubedNumber = cube(4); 
-            Console.WriteLine(cubedNumber);
+            // If statements
+            //bool isBald = true;
+            //bool isTall = false;
+            //if (isBald && isTall)
+            //{
+            //    Console.WriteLine("You are bald and tall");
+            //} 
+
+            //else if (isBald || isTall)
+            //{
+            //    Console.WriteLine("You are either bald or tall");
+            //} 
+
+            //else if (isBald && !isTall)
+            //{
+            //    Console.WriteLine("You are a bald shorty");
+            //}             
+            //else if (!isBald && isTall)
+            //{
+            //    Console.WriteLine("You are not bald and tall");
+            //} 
+            //else
+            //{
+            //    Console.WriteLine("You ar not bald and not tall");
+            //}
+
+            //int max = GetMax(50, 20, 10);
+            //Console.WriteLine(max);
+            //Console.ReadLine();
+
+            // Simple Calculator
+
             Console.ReadLine();
         }
 
@@ -125,10 +158,26 @@ namespace ConsoleApp1
         //{ 
         //    Console.WriteLine("Hello " + name + ", you are " + age + " years old");  
         //}        
-        static int cube( int num) 
-        {
-            int result = num * num * num;
-            return result;
-        }
+        //static int cube( int num) 
+        //{
+        //    int result = num * num * num;
+        //    return result;
+        //}
+
+        //static int GetMax(int num1, int num2, int num3) 
+        //{
+        //    int result;
+        //    if(num1 >= num2 && num1 >= num3) 
+        //    {
+        //        result = num1;
+        //    } else if(num2 >= num1 && num2 >= num3)
+        //    {
+        //        result = num2;
+        //    } else
+        //    {
+        //        result = num3;
+        //    }
+        //    return result;
+        //}
     }
 }
