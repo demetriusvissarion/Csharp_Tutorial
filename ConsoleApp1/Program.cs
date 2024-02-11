@@ -150,7 +150,27 @@ namespace ConsoleApp1
             //Console.ReadLine();
 
             // Switch statements
-            Console.WriteLine(GetDay(0));
+            //Console.WriteLine(GetDay(0));
+            //Console.ReadLine();
+
+            // Do While loops
+            //int index = 1;
+            //do
+            //{
+            //    Console.WriteLine(index); 
+            //    index++;
+            //} while (index <= 5);
+            //Console.ReadLine();
+
+            // 2D Arrays
+            int[,] numberGrid =
+            {
+                { 1, 2 },
+                { 3, 4 },
+                { 5, 6 },
+            };
+
+            Console.WriteLine(numberGrid[1, 1]);
             Console.ReadLine();
         }
 
@@ -180,38 +200,38 @@ namespace ConsoleApp1
         //    return result;
         //}
 
-        static string GetDay(int dayNum)
-        {
-            string dayName;
+        //static string GetDay(int dayNum)
+        //{
+        //    string dayName;
 
-            switch (dayNum) 
-            { 
-            case 0:
-                dayName = "Monday";
-                break;
-            case 1:
-                dayName = "Tuesday";
-                break;
-            case 2:
-                dayName = "Wednesday";
-                break;
-            case 3:
-                dayName = "Thursday";
-                break;
-            case 4:
-                dayName = "Friday";
-                break;
-            case 5:
-                dayName = "Saturday";
-                break;
-            case 6:
-                dayName = "Sunday";
-                break;
-            default:
-                dayName = "Invalid Day Number";
-                break;
-            }
-            return "Today is " + dayName;
-        }
+        //    switch (dayNum) 
+        //    { 
+        //    case 0:
+        //        dayName = "Monday";
+        //        break;
+        //    case 1:
+        //        dayName = "Tuesday";
+        //        break;
+        //    case 2:
+        //        dayName = "Wednesday";
+        //        break;
+        //    case 3:
+        //        dayName = "Thursday";
+        //        break;
+        //    case 4:
+        //        dayName = "Friday";
+        //        break;
+        //    case 5:
+        //        dayName = "Saturday";
+        //        break;
+        //    case 6:
+        //        dayName = "Sunday";
+        //        break;
+        //    default:
+        //        dayName = "Invalid Day Number";
+        //        break;
+        //    }
+        //    return "Today is " + dayName;
+        //}
     }
 }
