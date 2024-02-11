@@ -12,10 +12,10 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World");
 
-            Console.WriteLine("   /\\     ");
-            Console.WriteLine("  /  \\    ");
-            Console.WriteLine(" /    \\   ");
-            Console.WriteLine("/______\\  ");
+            Console.WriteLine("   /\\      /\\    ");
+            Console.WriteLine("  /  \\    /  \\   ");
+            Console.WriteLine(" /    \\  /    \\  ");
+            Console.WriteLine("/______\\/______\\ ");
 
             //string characterName = "John";
             //int characterAge = 35;
@@ -163,14 +163,32 @@ namespace ConsoleApp1
             //Console.ReadLine();
 
             // 2D Arrays
-            int[,] numberGrid =
-            {
-                { 1, 2 },
-                { 3, 4 },
-                { 5, 6 },
-            };
+            //int[,] numberGrid =
+            //{
+            //    { 1, 2 },
+            //    { 3, 4 },
+            //    { 5, 6 },
+            //};
+            //Console.WriteLine(numberGrid[1, 1]);
+            //Console.ReadLine();
 
-            Console.WriteLine(numberGrid[1, 1]);
+            // Exception handling
+
+            // Classes and objects
+            Book book1 = new Book();
+            book1.title = "Harry Potter";
+            book1.author = "JK Rolling";
+            book1.pages = 400;
+
+            Book book2 = new Book();
+            book2.title = "Hyperion";
+            book2.author = "Dan Simmons";
+            book2.pages = 1900;
+
+            Console.WriteLine(book1.title);
+            Console.WriteLine(book2.title);
+
+
             Console.ReadLine();
         }
 
