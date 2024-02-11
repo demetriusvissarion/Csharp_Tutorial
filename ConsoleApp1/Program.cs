@@ -217,8 +217,18 @@ namespace ConsoleApp1
             //Console.WriteLine(kashmir.getSongCount());
 
             // Static methods and classes
-            Console.WriteLine(Math.Sqrt(144));
-            UsefullTools.SayHi("Mike");
+            //Console.WriteLine(Math.Sqrt(144));
+            //UsefullTools.SayHi("Mike");
+
+            // Inheritance
+            Chef chef = new Chef();
+            chef.MakeChicken();
+            chef.MakeSpecialDish();
+
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeChicken();
+            italianChef.MakePasta();
+            italianChef.MakeSpecialDish();
 
             Console.ReadLine();
         }
