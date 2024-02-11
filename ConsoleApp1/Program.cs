@@ -17,8 +17,8 @@ namespace ConsoleApp1
             Console.WriteLine(" /    \\   ");
             Console.WriteLine("/______\\  ");
 
-            string characterName = "John";
-            int characterAge = 35;
+            //string characterName = "John";
+            //int characterAge = 35;
 
             //Console.WriteLine("There was once a man named " +  characterName);
             //Console.WriteLine("He was " + characterAge + " years old");
@@ -149,8 +149,8 @@ namespace ConsoleApp1
             //Console.WriteLine(max);
             //Console.ReadLine();
 
-            // Simple Calculator
-
+            // Switch statements
+            Console.WriteLine(GetDay(0));
             Console.ReadLine();
         }
 
@@ -179,5 +179,39 @@ namespace ConsoleApp1
         //    }
         //    return result;
         //}
+
+        static string GetDay(int dayNum)
+        {
+            string dayName;
+
+            switch (dayNum) 
+            { 
+            case 0:
+                dayName = "Monday";
+                break;
+            case 1:
+                dayName = "Tuesday";
+                break;
+            case 2:
+                dayName = "Wednesday";
+                break;
+            case 3:
+                dayName = "Thursday";
+                break;
+            case 4:
+                dayName = "Friday";
+                break;
+            case 5:
+                dayName = "Saturday";
+                break;
+            case 6:
+                dayName = "Sunday";
+                break;
+            default:
+                dayName = "Invalid Day Number";
+                break;
+            }
+            return "Today is " + dayName;
+        }
     }
 }
